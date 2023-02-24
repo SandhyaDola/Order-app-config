@@ -6,8 +6,8 @@ eureka:
     register-with-eureka: true
     hostname: 127.0.0.1
     ip-address: 127.0.0.1
-    service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
     instance:
         hostname: 127.0.0.1
 
